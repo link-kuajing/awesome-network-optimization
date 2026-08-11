@@ -6,7 +6,7 @@
 [![Last Updated](https://img.shields.io/badge/更新日期-2026--08--11-brightgreen)]()
 [![Airports](https://img.shields.io/badge/收录机场-20家-blue)]()
 [![VPS](https://img.shields.io/badge/收录VPS-9家-orange)]()
-[![Guides](https://img.shields.io/badge/深度教程-7篇-purple)]()
+[![Guides](https://img.shields.io/badge/深度教程-12篇-purple)]()
 
 ---
 
@@ -35,6 +35,8 @@
 > 💡 **不知道怎么选？** 直接看 [🎯 场景导购](#-场景导购) 按你的需求对号入座。
 >
 > 💡 **想自建？** 看看 [VPS自建代理节点](guides/vps-xray-setup.md) 或 [买了VPS能做什么](guides/vps-use-cases.md)。
+>
+> 💡 **想搞懂原理？** 协议怎么选 / 线路是什么 / 解锁怎么测 → [协议横评](guides/protocols-comparison.md) · [机场架构](guides/airport-architecture.md) · [解锁检测](guides/streaming-unlock-test.md)
 
 > 💡 **新用户建议**：预算有限先试自由猫 ¥6/月入门；追求稳定看万达云 IEPL 专线；需要大流量果断 SS-ID。
 >
@@ -86,6 +88,7 @@
 | Spotify Premium | 后台播放不掉线 | **酷酷云** BGP三网 |
 | DAZN体育直播 | 低延迟流畅播放 | **万达云** 不限速 |
 | Abema TV（日本）/ TVB（香港） | 区域解锁 | **SS-ID** 区域节点 |
+| 自己测节点解锁 | 不放心某节点的 ChatGPT/Netflix 表现 | 👉 [解锁检测方法](guides/streaming-unlock-test.md) |
 
 ### 🎮 游戏
 
@@ -116,6 +119,7 @@
 | Stack Overflow / Google搜索 | 低延迟 | **自由猫** 经济型 |
 | HuggingFace下载模型 | 大文件下载 | **红杏云** 不限时6000G |
 | 自建GitLab/Gitea代码托管 | 需要VPS跑服务 | 👉 [看VPS推荐](#️-云服务器vps-推荐) |
+| 跟进代理工具更新 | Xray/mihomo/sing-box 官方动态 | 👉 [8月工具综述](guides/tool-update-2026-08.md) |
 
 ### 🌏 海外华人/留学生
 
@@ -150,14 +154,14 @@
 
 | 场景 | 教程 | 推荐VPS |
 |:----|:----|:-------:|
-| 🔐 自建密码管理器 | 👉 [Vaultwarden部署](guides/vps-use-cases.md#密码管理器) | **RackNerd** 低配够用 |
+| 🔐 自建密码管理器 | 👉 [Vaultwarden部署](guides/vps-use-cases.md#-密码管理器) | **RackNerd** 低配够用 |
 | 🤖 部署AI助手(Hermes+飞书) | 👉 [Hermes Agent教程](guides/hermes-agent-setup.md) | **BandwagonHost** 稳定 |
 | 🛡️ 自建代理节点 | 👉 [Xray+Reality搭建](guides/vps-xray-setup.md) | **BandwagonHost** CN2 GIA |
-| 📦 自建网盘/备份 | 👉 [Cloudreve部署](guides/vps-use-cases.md#自建网盘) | **RackNerd** 大硬盘款 |
-| 📊 网站监控/Uptime | 👉 [监控工具部署](guides/vps-use-cases.md#监控告警) | **RackNerd** ¥10/年 |
-| 🎵 自建云音乐 | 👉 [Navidrome搭建](guides/vps-use-cases.md#自建音乐) | 任何VPS |
+| 📦 自建网盘/备份 | 👉 [Cloudreve部署](guides/vps-use-cases.md#️-自建网盘) | **RackNerd** 大硬盘款 |
+| 📊 网站监控/Uptime | 👉 [监控工具部署](guides/vps-use-cases.md#-网站监控) | **RackNerd** ¥10/年 |
+| 🎵 自建云音乐 | 👉 [Navidrome搭建](guides/vps-use-cases.md#-自建云音乐) | 任何VPS |
 | ⚙️ 跑脚本/自动化 | cron任务、爬虫、定时备份 | 任何VPS |
-| 🧭 自建导航站 | 👉 [书签管理系统](guides/vps-use-cases.md#导航站) | **RackNerd** 入门款 |
+| 🧭 自建导航站 | 👉 [书签管理系统](guides/vps-use-cases.md#-导航站) | **RackNerd** 入门款 |
 
 > 📖 **VPS详细教程合集** → [买了VPS能做什么](guides/vps-use-cases.md) · [VPS选购指南](vps/README.md)
 
@@ -259,6 +263,11 @@
 | [⚙️ Clash Meta 进阶配置](guides/clash-meta-guide.md) — 分流规则、策略组、TUN 模式 | 🟡 进阶 | ⏱️ 15分钟 |
 | [🤖 Hermes Agent 部署+飞书集成](guides/hermes-agent-setup.md) — AI助手私有化，含飞书权限逐项说明 | 🔴 高级 | ⏱️ 25分钟 |
 | [📡 路由器 OpenClash 配置](guides/openclash-setup.md) — 软路由全屋科学上网 | 🔴 高级 | ⏱️ 20分钟 |
+| [⚖️ 主流代理协议横评](guides/protocols-comparison.md) — VLESS+Reality/SS/Trojan/Hysteria2/TUIC 怎么选 | 🟡 进阶 | ⏱️ 15分钟 |
+| [🧩 Clash Meta 规则写法实战](guides/clash-meta-rules.md) — 匹配优先级 + 策略组设计 | 🟡 进阶 | ⏱️ 20分钟 |
+| [🏗️ 机场架构科普](guides/airport-architecture.md) — 入口-中转-落地、CN2/IEPL/IPLC 名词速懂 | 🟡 进阶 | ⏱️ 10分钟 |
+| [🔍 流媒体解锁检测方法](guides/streaming-unlock-test.md) — 自己测 ChatGPT/Netflix 解锁 | 🟡 进阶 | ⏱️ 10分钟 |
+| [📰 网络工具更新综述 2026-08](guides/tool-update-2026-08.md) — Xray/mihomo/sing-box/Hysteria2 官方动态 | 🟡 进阶 | ⏱️ 5分钟 |
 
 ---
 
@@ -266,6 +275,7 @@
 
 | 日期 | 更新内容 |
 |:----:|----------|
+| 2026-08-11 | 📚 新增 5 篇深度教程（教程区 7→12）：<br>⚖️ [主流代理协议横评](guides/protocols-comparison.md)（VLESS+Reality/SS/Trojan/Hysteria2/TUIC）<br>🧩 [Clash Meta 规则写法实战](guides/clash-meta-rules.md)（匹配优先级+策略组设计）<br>🏗️ [机场架构科普](guides/airport-architecture.md)（入口-中转-落地/CN2/IEPL/IPLC）<br>🔍 [流媒体解锁检测方法](guides/streaming-unlock-test.md)（方法工具，不含未实测数据）<br>📰 [网络工具更新综述 2026-08](guides/tool-update-2026-08.md)（脚本拉官方 releases 数据整理）<br>🔧 新增 scripts/fetch-tool-releases.py 月度素材脚本（GitHub API 拉取+24h缓存）<br>🔗 首页教程区/场景导购/热门推荐同步交叉引用 |
 | 2026-08-11 | 🔄 一致性修复 + 内容保鲜：<br>🛩️ 补 极速Cloud / 秒秒云 官网入口页（收录机场 18→20）<br>⭐ 新增 2 篇深度评测：仙路湾（跨境电商专精）、瑶瑶领先（全球48节点/40+地区，¥9.9 享 384GB），主推 3→5 家<br>📝 刷新 自由猫/SS-ID/万达云 评测（价格与 08-11 同步数据核对一致，更新时间标注）<br>🔧 入口页设备限制正则增强（清洗"最多X个设备"脏数据）<br>📚 others.md 补 山水云/极速云/Now加速/大象网络/极速Cloud/秒秒云 条目，对比表同步 20 家<br>🔢 徽章数据修正：收录机场 20 家、VPS 9 家（补 Jtti），更新日志补记 8 月上旬 |
 | 2026-08-01 | 📡 瑶瑶领先补节点数据：全球 48 节点/40+ 地区（含南极洲/格陵兰/冰岛等罕见节点，人工录入自官网节点状态页）<br>🛡️ 新增原创声明：README 详细版 + 18 个入口页轻量版（禁止整段复制/镜像搬运）<br>📊 每日 2:00 数据自动同步持续运行 |
 | 2026-07-31 | 🛩️ 新增18家机场官网入口页（airports/entry/），单仓矩阵：每家独立"官网注册入口+使用指南"页面，含套餐分组/¥G单价/性价比分析，套餐价格每日自动同步<br>⭐ 主推3家入口页内置流媒体实测、优缺点、适合人群（抽取自深度评测）<br>📥 新增 5 家机场数据：Now加速/大象网络/极速云/山水云/仙路湾（收录机场 13→18） |

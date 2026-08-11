@@ -82,18 +82,18 @@
 |:----|:---------|:---------|
 | 🛡️ **自建代理节点**（Xray+Reality） | [详细教程](../guides/vps-xray-setup.md) | BandwagonHost CN2 GIA / DMIT |
 | 🤖 **部署AI助手**（Hermes Agent + 飞书） | [详细教程](../guides/hermes-agent-setup.md) | 任何1GB+ VPS |
-| 🔐 **自建密码管理器**（替代Bitwarden/1Password） | [Vaultwarden部署](../guides/vps-use-cases.md#密码管理器) | RackNerd ¥10/年 |
-| ☁️ **自建网盘**（替代百度网盘，不限速） | [Cloudreve部署](../guides/vps-use-cases.md#自建网盘) | 大硬盘款VPS |
-| 🎵 **自建云音乐**（无广告，随时随地听） | [Navidrome搭建](../guides/vps-use-cases.md#自建云音乐) | 任何VPS |
-| 📊 **网站监控**（宕机告警） | [Uptime Kuma部署](../guides/vps-use-cases.md#网站监控) | RackNerd ¥10/年 |
-| 📑 **RSS阅读器**（信息聚合，不挨个刷） | [Miniflux部署](../guides/vps-use-cases.md#rss阅读器) | 256MB就够 |
-| 🧭 **自建导航站**（替代浏览器书签） | [Sun-Panel部署](../guides/vps-use-cases.md#导航站) | 256MB就够 |
-| ⚙️ **自动化脚本**（爬虫、签到、备份、监控） | [cron任务指南](../guides/vps-use-cases.md#自动化) | 任何VPS |
-| 💻 **自建代码仓库**（私有Git托管） | [Gitea部署](../guides/vps-use-cases.md#代码托管) | 1GB VPS |
-| 📁 **文件快传**（像快递柜一样分享文件） | [FileCodeBox部署](../guides/vps-use-cases.md#文件快传) | 256MB就够 |
-| 📝 **自建笔记知识库**（替代Notion/飞书文档） | [Trilium部署](../guides/vps-use-cases.md#笔记知识库) | 512MB VPS |
-| 🖥️ **在线IDE**（浏览器里写代码） | [Code-Server部署](../guides/vps-use-cases.md#在线ide) | 1GB VPS |
-| 🤖 **私有AI大模型**（跑Ollama+Open WebUI） | [私有AI部署](../guides/vps-use-cases.md#私有ai) | 4GB+ VPS |
+| 🔐 **自建密码管理器**（替代Bitwarden/1Password） | [Vaultwarden部署](../guides/vps-use-cases.md#-密码管理器) | RackNerd ¥10/年 |
+| ☁️ **自建网盘**（替代百度网盘，不限速） | [Cloudreve部署](../guides/vps-use-cases.md#️-自建网盘) | 大硬盘款VPS |
+| 🎵 **自建云音乐**（无广告，随时随地听） | [Navidrome搭建](../guides/vps-use-cases.md#-自建云音乐) | 任何VPS |
+| 📊 **网站监控**（宕机告警） | [Uptime Kuma部署](../guides/vps-use-cases.md#-网站监控) | RackNerd ¥10/年 |
+| 📑 **RSS阅读器**（信息聚合，不挨个刷） | [Miniflux部署](../guides/vps-use-cases.md#-rss阅读器) | 256MB就够 |
+| 🧭 **自建导航站**（替代浏览器书签） | [Sun-Panel部署](../guides/vps-use-cases.md#-导航站) | 256MB就够 |
+| ⚙️ **自动化脚本**（爬虫、签到、备份、监控） | [cron任务指南](../guides/vps-use-cases.md#️-自动化) | 任何VPS |
+| 💻 **自建代码仓库**（私有Git托管） | [Gitea部署](../guides/vps-use-cases.md#-代码托管) | 1GB VPS |
+| 📁 **文件快传**（像快递柜一样分享文件） | [FileCodeBox部署](../guides/vps-use-cases.md#-文件快传) | 256MB就够 |
+| 📝 **自建笔记知识库**（替代Notion/飞书文档） | [Trilium部署](../guides/vps-use-cases.md#-笔记知识库) | 512MB VPS |
+| 🖥️ **在线IDE**（浏览器里写代码） | [Code-Server部署](../guides/vps-use-cases.md#️-在线ide) | 1GB VPS |
+| 🤖 **私有AI大模型**（跑Ollama+Open WebUI） | [私有AI部署](../guides/vps-use-cases.md#-私有ai) | 4GB+ VPS |
 
 > 📖 **完整攻略 →** [「买了VPS能做什么」15+玩法大全](../guides/vps-use-cases.md)
 

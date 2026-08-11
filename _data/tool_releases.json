@@ -1,0 +1,250 @@
+{
+  "fetched_at": "2026-08-11T07:19:54.351759+00:00",
+  "since_days": 30,
+  "repos": {
+    "XTLS/Xray-core": {
+      "ok": true,
+      "releases": [
+        {
+          "tag": "v26.7.28",
+          "name": "Xray-core v26.7.28",
+          "published_at": "2026-07-28T08:00:45Z",
+          "prerelease": true,
+          "html_url": "https://github.com/XTLS/Xray-core/releases/tag/v26.7.28",
+          "body": ""
+        }
+      ]
+    },
+    "MetaCubeX/mihomo": {
+      "ok": true,
+      "releases": [
+        {
+          "tag": "v1.19.29",
+          "name": "v1.19.29",
+          "published_at": "2026-07-18T12:34:03Z",
+          "prerelease": false,
+          "html_url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.29",
+          "body": "## What's Changed\r\n* bd749c65 feat: sync anytls v0.0.13 (#2990) by @anytls\r\n* e26714a1 feat: support TLS rekey fix, data-ciphers negotiation, tls-crypt-v2 for OpenVPN (#2989) by @Lanlan13-14\r\n* 0e7c3c79 feat: support restls for anytls outbound and listener by @wwqgtxx\r\n* 2b2bdf6d feat: support jls for shadowsocks outbound and listener by @wwqgtxx\r\n* 5677fd38 feat: add `name-cert-verify` to support separate certificate verification name by @wwqgtxx\r\n* 611a4481 feat: support jls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n* 6d96163e feat: support `override-expr` for proxy provider override by @wwqgtxx\r\n* 769ea6f5 feat: support restls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n* 76d80883 feat: add support for TLSAuth for Openvpn (#2969) by @lyaaz\r\n* 8fe7f748 feat: support jls for anytls outbound and listener by @wwqgtxx\r\n* 9ab75434 feat: support restls/jls for snell outbound and listener by @wwqgtxx\r\n* aea5ce41 feat: support shadowquic outbound and listener by @wwqgtxx\r\n* bc0e5aa8 feat: support shadowtls for anytls outbound and listener by @wwqgtxx\r\n* bfa9ea1d feat: support brutal for shadowquic (mihomo private extension) by @wwqgtxx\r\n* c015694b feat: support shadowtls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n\r\n## BUG & Fix\r\n* 02dfcf2b fix: incorrect alphabet size used in session-table for predefined tables in xhttp-config by @SaltyMonkey\r\n* 0ee58417 fix: reconnect OpenVPN on server soft reset (#2978) by @freephilx\r\n* 12c30af9 fix: wireguard per-peer reserved ignored (#2958) by @AaronChen0\r\n* 2b0d8411 fix: make shadowtls v2 read deadlines recoverable by @wwqgtxx\r\n* 2c7309e2 fix: listener duplicate-name check (#2948) by @AaronChen0\r\n* 3766a087 fix: set global CA pool and NTP time for restls by @wwqgtxx\r\n* 41549236 fix: stop reaper goroutine busy-looping after context cancel (#2964) by @AaronChen0\r\n* 45f79309 fix: CNAME query matching a hosts domain-entry returns an empty answer (#2965) by @AaronChen0\r\n* 75a3ea8b fix: leaked openStreams on failure in TUIC client (#2959) by @AaronChen0\r\n* 7a3c37cb fix: make shadowtls v3 read deadlines recoverable by @wwqgtxx\r\n* 8507c1e2 fix: missing override `shadow-tls-opts` and `restls-opts` in xhttp `download-settings` by @wwqgtxx\r\n* 86984831 fix: the incorrect tls stack was used in shadowtls tests by @wwqgtxx\r\n* 975389a1 fix: intermittent timeouts during the soak test by @wwqgtxx\r\n* 9a7e7266 fix: performance regression caused by unnecessary wrapping in stream encryption by @wwqgtxx\r\n* 9ae1cc2b fix: shadowquic JLS pre-flight fallback handle by @wwqgtxx\r\n* a35045d9 fix: consume CachedConn data in ReadCached by @wwqgtxx\r\n* a5167fa4 fix: allow JLS fallback before the server flight by @wwqgtxx\r\n* a70af274 fix: remove unnecessary quinn-jls compatibility behavior by @wwqgtxx\r\n* ba5c45b7 fix: anytls listener config parsing by @wwqgtxx\r\n* c079b0cc fix: panic on full-width IP-SUFFIX rules (#2975) by @AaronChen0\r\n* c5834396 fix: DOMAIN-WILDCARD ignores sniffed hostname (#2956) by @AaronChen0\r\n* cb8cde8d fix: missing override `jls-opts` in xhttp `download-settings` by @wwqgtxx\r\n* e8ab2d04 fix: alpnAwareRoundTripper behavior in mekya client by @wwqgtxx\r\n* f86bc224 fix: align HelloRetryRequest handling with JLS v3 by @wwqgtxx\r\n\r\n## Maintenance\r\n* 1d1b370e chore: remove redundant writeFull in snell v4 by @wwqgtxx\r\n* 2d45f9ec chore: using new net/http api in mekya client by @wwqgtxx\r\n* 309cfbd6 chore: reimplement shadowtls by @wwqgtxx\r\n* 3b73922f chore: cleanup shadowquic code by @wwqgtxx\r\n* 3f22309b chore: respect the incoming context during JLS fallback by @wwqgtxx\r\n* 42361162 chore: better UserFromConn implementation by @wwqgtxx\r\n* 44dd834f chore: preserve jls in-user for shadowsocks listeners by @wwqgtxx\r\n* 46f9b786 chore: export internal OverrideExpr for api user by @wwqgtxx\r\n* 4d7ef85a chore: sync logic to legacy shadowsocks listener by @wwqgtxx\r\n* 5c1b8bfc chore: authenticate JLS ServerHello using its wire encoding by @wwqgtxx\r\n* 6a52d23a chore: do not force trailing path / when both sessionID and seq are placed elsewhere for xhttp by @Medium1992\r\n* 75eeba42 chore: significantly trim unnecessary code from tailscale by @wwqgtxx\r\n* 8413f504 chore: skip frequently failed tests on windows go1.20 by @wwqgtxx\r\n* 94409eb6 chore: remove redundant writeFull in sudoku by @wwqgtxx\r\n* 95af34af chore: remove redundant writeFull in shadowquic by @wwqgtxx\r\n* 97292968 chore: sync to sudoku v0.4.8 (#2966) by @saba-futai\r\n* 9cece132 chore: add test for alpnAwareRoundTripper in mekya client by @wwqgtxx\r\n* b6ed8e26 chore: rewrite the internal mutual exclusion logic of the listener by @wwqgtxx\r\n* b75a776d chore: clean up duplicate helpers in tests by @wwqgtxx\r\n* bc5976f4 chore: sync internal logic by @wwqgtxx\r\n* cf8545db chore: stabilize traffic wait timing in tlsmirror test by @wwqgtxx\r\n* da5a3e52 chore: rewrite the internal mutual exclusion logic of the outbound by @wwqgtxx\r\n* dc4d4fcb chore: allow jls with utls client-fingerprint by @wwqgtxx\r\n* e3c1ea06 chore: better handshakeRecorderConn impl by @wwqgtxx\r\n* e9119858 chore: change the brutal negotiation in shadowquic to be asynchronous by @wwqgtxx\r\n* ee80e8d6 chore: more comprehensive interop test by @wwqgtxx\r\n* f23e43e6 chore: remove redundant writeFull in gost relay by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.28...v1.19.29"
+        }
+      ]
+    },
+    "SagerNet/sing-box": {
+      "ok": true,
+      "releases": [
+        {
+          "tag": "v1.14.0-beta.14",
+          "name": "1.14.0-beta.14",
+          "published_at": "2026-08-11T04:55:55Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.14",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.13",
+          "name": "1.14.0-beta.13",
+          "published_at": "2026-08-10T08:07:41Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.13",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.12",
+          "name": "1.14.0-beta.12",
+          "published_at": "2026-08-09T07:55:11Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.12",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.13.18",
+          "name": "1.13.18",
+          "published_at": "2026-08-09T07:55:08Z",
+          "prerelease": false,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.18",
+          "body": "## :memo: Release Notes\n\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.10",
+          "name": "1.14.0-beta.10",
+          "published_at": "2026-08-08T14:31:24Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.10",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.9",
+          "name": "1.14.0-beta.9",
+          "published_at": "2026-08-07T05:28:03Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.9",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.8",
+          "name": "1.14.0-beta.8",
+          "published_at": "2026-08-06T07:17:43Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.8",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.7",
+          "name": "1.14.0-beta.7",
+          "published_at": "2026-08-05T03:33:51Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.7",
+          "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot)."
+        },
+        {
+          "tag": "v1.14.0-beta.5",
+          "name": "1.14.0-beta.5",
+          "published_at": "2026-08-03T12:14:25Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.5",
+          "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
+        },
+        {
+          "tag": "v1.13.16",
+          "name": "1.13.16",
+          "published_at": "2026-08-03T12:14:29Z",
+          "prerelease": false,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.16",
+          "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
+        },
+        {
+          "tag": "v1.14.0-beta.4",
+          "name": "1.14.0-beta.4",
+          "published_at": "2026-07-31T08:47:29Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.4",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.3",
+          "name": "1.14.0-beta.3",
+          "published_at": "2026-07-29T12:11:43Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.3",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.13.15",
+          "name": "1.13.15",
+          "published_at": "2026-07-29T12:11:41Z",
+          "prerelease": false,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.15",
+          "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+        },
+        {
+          "tag": "v1.14.0-beta.2",
+          "name": "1.14.0-beta.2",
+          "published_at": "2026-07-25T05:58:53Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.2",
+          "body": "## :memo: Release Notes\n\n* Add [JSON Schema](https://sing-box.sagernet.org/configuration/schema/) support **1**\n* Fixes and improvements\n\n**1**:\n\nsing-box now provides a JSON Schema for its configuration, enabling completion and validation in compatible editors. The schema published with the documentation can be selected with the new top-level `$schema` field, while the new `sing-box schema` command generates a schema matching the current binary and its build tags.\n\nWe have also improved the JSON editor experience in the graphical clients on macOS, Android, Windows, and Linux, and added schema-based completion support."
+        },
+        {
+          "tag": "v1.14.0-beta.1",
+          "name": "1.14.0-beta.1",
+          "published_at": "2026-07-23T14:10:20Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.1",
+          "body": "## :memo: Release Notes\n\n* Correct undefined rule-set matching semantics **1**\n* Add search domain rule items **2**\n* Add parallel DNS response evaluation support **3**\n* Fixes and improvements\n\n**1**:\n\nRule-set matching has always been described as merged matching: fields of rule-set rules are considered merged into the referencing rule. However, this description is only intuitive when a rule-set contains only a single `default` rule without `invert`. Merged matching is now limited to exactly this case; any other referenced rule-set is matched as an `other field`, which matches when any of its rules matches on its own. Since the previous behavior in the corrected cases was effectively undefined, counterintuitive, and hard to understand, we do not consider this a breaking change — except for configurations that worked without their author understanding why.\n\n**2**:\n\nThe new DNS rule items [`domain_label_count`](https://sing-box.sagernet.org/configuration/dns/rule/#domain_label_count) and [`search_domain_available`](https://sing-box.sagernet.org/configuration/dns/rule/#search_domain_available) match the number of labels in the query name and whether a DNS server currently holds search domains; combined with `racing`, they allow unqualified name queries to race a server that can expand them against a public resolver. Additionally, [`preferred_by`](https://sing-box.sagernet.org/configuration/dns/rule/#preferred_by) now matches search domain suffixes and supports `local` and `dhcp` servers.\n\n**3**:\n\nThe [`evaluate`](https://sing-box.sagernet.org/configuration/dns/rule_action/#evaluate) action can now assign a `tag` to each response, allowing multiple evaluated responses to coexist and be selected through tagged [`match_response`](https://sing-box.sagernet.org/configuration/dns/rule/#match_response) rules. The new [`race`](https://sing-box.sagernet.org/configuration/dns/rule_action/#race) field allows response-dependent rules to compete in parallel, with the first matching rule taking effect and the remaining queries canceled. The new `speculative` option can start `evaluate` and `route` queries while race rules are still pending, reducing latency at the cost of potentially unused queries."
+        },
+        {
+          "tag": "v1.14.0-alpha.50",
+          "name": "1.14.0-alpha.50",
+          "published_at": "2026-07-22T03:12:14Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.50",
+          "body": "## :memo: Release Notes\n\n* Improve OpenVPN interoperability **1**\n* Improve OpenConnect interoperability **2**\n* Add Fortinet host check support **3**\n* Fixes and improvements\n\n**1**:\n\nThe OpenVPN client and server now interoperate with more existing deployments through static-key mode, additional legacy ciphers and digests, and OpenVPN-compatible certificate purpose, key usage, extended key usage, and certificate profile checks. They also support more OpenVPN options for tunnel addressing, MSS calculation, replay windows, timers, and TLS renegotiation. The new [OpenVPN DNS server](https://sing-box.sagernet.org/configuration/dns/server/openvpn/) can use both modern and legacy DNS options pushed by OpenVPN servers, while the sing-box server can push both forms.\n\n**2**:\n\nThe OpenConnect client now supports existing authentication sessions, OIDC Bearer authentication, additional platform and AnyConnect mobile identity fields, AnyConnect compression, and controls for MTU, DPD and reconnect timing, TCP keep alive, and TLS trust and certificate pinning. The new [OpenConnect DNS server](https://sing-box.sagernet.org/configuration/dns/server/openconnect/) can use pushed split-DNS resolvers and, when enabled, general pushed resolvers.\n\n**3**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint can now submit Fortinet host check results using the new [`fortinet_host_check`](https://sing-box.sagernet.org/configuration/endpoint/openconnect/#fortinet_host_check) option. This behavior is modeled after openfortivpn and is not an OpenConnect feature. sing-box only submits explicitly configured values when requested by the Fortinet server and does not collect system information automatically."
+        },
+        {
+          "tag": "v1.14.0-alpha.48",
+          "name": "1.14.0-alpha.48",
+          "published_at": "2026-07-19T15:33:35Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.48",
+          "body": "## :memo: Release Notes\n\n* Add SSO support for AnyConnect **1**\n* Add Linux support for the [desktop client application](https://sing-box.sagernet.org/clients/desktop/) **2**\n* Fixes and improvements\n\n**1**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint now supports SSO (single sign-on) authentication for Cisco AnyConnect servers, available through the sing-box graphical clients.\n\n**2**:\n\nThe [sing-box for Desktop](https://sing-box.sagernet.org/clients/desktop/) client is now available for Linux (x64 / arm64 / armv7l) from [GitHub Releases](https://github.com/SagerNet/sing-box/releases)."
+        },
+        {
+          "tag": "v1.14.0-alpha.47",
+          "name": "1.14.0-alpha.47",
+          "published_at": "2026-07-18T02:28:26Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.47",
+          "body": "## :memo: Release Notes\n\n* Add OpenVPN client and server support **1**\n* Add OpenConnect client support **2**\n* Fixes and improvements\n\n**1**:\n\nThe new [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/) and [OpenVPN Server](https://sing-box.sagernet.org/configuration/endpoint/openvpn-server/) endpoints are compatible with standard OpenVPN clients and servers. Interactive client authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard).\n\n**2**:\n\nThe new [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint supports Cisco AnyConnect, GlobalProtect, Fortinet, F5, Pulse Connect Secure, and Juniper Network Connect VPN servers. Interactive authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard)."
+        },
+        {
+          "tag": "v1.14.0-alpha.46",
+          "name": "1.14.0-alpha.46",
+          "published_at": "2026-07-17T04:50:20Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.46",
+          "body": "## :memo: Release Notes\n\n* Add multiple tags support to rule-sets **1**\n* Add new UDP NAT options **2**\n* Fixes and improvements\n\n**1**:\n\nThe rule-set [`tag`](https://sing-box.sagernet.org/configuration/rule-set/#tag) field now accepts a list of tags to define multiple rule-sets sharing other options at once, with the `{tag}` placeholder in `path` or `url` replaced by each tag.\n\n**2**:\n\nThe new [UDP NAT](https://sing-box.sagernet.org/configuration/shared/udp-nat/) fields [`udp_mapping`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_mapping), [`udp_filtering`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_filtering) and [`udp_nat_max`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_nat_max) configure the NAT mapping and filtering behaviors and the maximum number of UDP NAT sessions for TUN and TProxy inbounds and the WireGuard endpoint."
+        },
+        {
+          "tag": "v1.14.0-alpha.45",
+          "name": "1.14.0-alpha.45",
+          "published_at": "2026-07-16T01:53:00Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.45",
+          "body": "## :memo: Release Notes\n\n* Improve the Windows client application **1**\n* Fixes and improvements\n\n**1**:\n\nThe [Windows client](https://sing-box.sagernet.org/clients/desktop/) now includes an updater, adds support for Windows native sharing of sing-box profile and JSON files, and fixes the Tailscale SSH terminal. The [Tailscale SSH server](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#ssh_server) can now open sessions for any local user in the graphical client, while the command line client remains limited to the user sing-box runs as. Additionally, configurations that use privileges unrelated to networking are now rejected by default; an insecure mode is available to allow them."
+        },
+        {
+          "tag": "v1.14.0-alpha.44",
+          "name": "1.14.0-alpha.44",
+          "published_at": "2026-07-14T09:14:36Z",
+          "prerelease": true,
+          "html_url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.44",
+          "body": "## :memo: Release Notes\n\n* Introducing our [new Windows client application](https://sing-box.sagernet.org/clients/desktop/) **1**\n* Fixes and improvements\n\n**1**:\n\nThe new [Windows client](https://sing-box.sagernet.org/clients/desktop/) provides an experience equal to other standard sing-box graphical clients, is available for Windows 10+ (x64 / x86 / arm64), and is distributed as an installer from [GitHub Releases](https://github.com/SagerNet/sing-box/releases) (`SFW-<version>-<architecture>.exe`)."
+        }
+      ]
+    },
+    "apernet/hysteria": {
+      "ok": true,
+      "releases": [
+        {
+          "tag": "app/v2.12.1",
+          "name": "app/v2.12.1",
+          "published_at": "2026-08-09T02:12:03Z",
+          "prerelease": false,
+          "html_url": "https://github.com/apernet/hysteria/releases/tag/app/v2.12.1",
+          "body": "- Added [Porkbun, Namecheap and Njalla](https://hysteria.network/docs/advanced/ACME-DNS-Config/) as ACME DNS providers\r\n- Fixed slow reconnection after the client has been idle or asleep, most noticeable on mobile devices. The server now sends QUIC stateless resets, so a client holding a stale connection reconnects immediately instead of waiting out its idle timeout\r\n- Fixed [mimic](https://hysteria.network/docs/advanced/Mimic/) refusing to start when its optional kernel module is not loaded\r\n- Various dependency updates\r\n\r\n---\r\n\r\n- 新增 [Porkbun、Namecheap 与 Njalla](https://hysteria.network/zh/docs/advanced/ACME-DNS-Config/) ACME DNS 服务商支持\r\n- 修复客户端空闲或休眠后重连缓慢的问题，在移动端上尤为明显。服务端现在会发送 QUIC 无状态重置（stateless reset），使持有失效连接的客户端能够立即重连，不再等待超时\r\n- 修复未加载可选内核模块时 [mimic](https://hysteria.network/zh/docs/advanced/Mimic/) 拒绝启动的问题\r\n- 若干依赖更新"
+        },
+        {
+          "tag": "app/v2.12.0",
+          "name": "app/v2.12.0",
+          "published_at": "2026-08-06T04:58:30Z",
+          "prerelease": false,
+          "html_url": "https://github.com/apernet/hysteria/releases/tag/app/v2.12.0",
+          "body": "- Added [mimic](https://hysteria.network/docs/advanced/Mimic/) integration, which disguises the connection as TCP for networks that restrict UDP (Linux only, requires mimic to be installed separately)\r\n- Improved the accuracy of Chrome QUIC fingerprint parroting\r\n- Fixed a BBR panic on paths with a small MTU, introduced in 2.11.0 by Chrome parroting\r\n- Various dependency updates\r\n\r\n---\r\n\r\n- 新增 [mimic](https://hysteria.network/zh/docs/advanced/Mimic/) 集成，可将连接伪装成 TCP，用于限制 UDP 的网络环境（仅限 Linux，需另行安装 mimic）\r\n- 提升 Chrome QUIC 指纹模仿的准确度\r\n- 修复了小 MTU 下一个 BBR panic 问题，由 2.11.0 的 Chrome 指纹模仿引入\r\n- 若干依赖更新"
+        },
+        {
+          "tag": "app/v2.11.0",
+          "name": "app/v2.11.0",
+          "published_at": "2026-08-01T03:13:43Z",
+          "prerelease": false,
+          "html_url": "https://github.com/apernet/hysteria/releases/tag/app/v2.11.0",
+          "body": "- Added Chrome QUIC fingerprint parroting: the client's QUIC handshake now looks like Google Chrome's. Enabled by default, but can be turned off with the [`quic.disableChromeParrot`](https://hysteria.network/docs/advanced/Full-Client-Config/#quic-parameters) option\r\n- Modernized the ACME stack (CertMagic, ACMEz and the libdns providers)\r\n- Removed the `namedotcom` [ACME DNS provider](https://hysteria.network/docs/advanced/ACME-DNS-Config/), as it has not been updated for the new libdns API\r\n- Updated quic-go to v0.61.0\r\n\r\n---\r\n\r\n- 新增 Chrome QUIC 指纹模仿：将客户端 QUIC 握手调整至与 Google Chrome 一致。默认启用，可通过 [`quic.disableChromeParrot`](https://hysteria.network/zh/docs/advanced/Full-Client-Config/#quic) 选项关闭\r\n- 更新 ACME 相关依赖（CertMagic, ACMEz, libdns 等）\r\n- 移除了 `namedotcom` [ACME DNS 服务商](https://hysteria.network/zh/docs/advanced/ACME-DNS-Config/)，由于其未针对新的 libdns API 进行更新\r\n- quic-go 更新至 v0.61.0"
+        },
+        {
+          "tag": "app/v2.10.0",
+          "name": "app/v2.10.0",
+          "published_at": "2026-07-13T04:30:54Z",
+          "prerelease": false,
+          "html_url": "https://github.com/apernet/hysteria/releases/tag/app/v2.10.0",
+          "body": "- Added [Encrypted Client Hello](https://hysteria.network/docs/advanced/ECH/) support\r\n- Added a `bandwidth.disableLossCompensation` option for disabling Brutal congestion control's loss compensation mechanism, which can improve stability in some cases\r\n- Various dependency updates and minor bug fixes\r\n\r\n---\r\n\r\n- 新增 [Encrypted Client Hello](https://hysteria.network/zh/docs/advanced/ECH/) 支持\r\n- 新增 `bandwidth.disableLossCompensation` 选项，用于关闭 Brutal 的速率补偿机制，可以在一些情况下提升稳定性\r\n- 若干依赖更新与小修复"
+        }
+      ]
+    },
+    "ihciah/shadow-tls": {
+      "ok": true,
+      "releases": []
+    },
+    "shadowsocks/shadowsocks-rust": {
+      "ok": true,
+      "releases": []
+    }
+  }
+}
