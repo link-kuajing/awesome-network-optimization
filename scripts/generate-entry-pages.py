@@ -46,12 +46,16 @@ SLUG_MAP = {
     "闪狐云": "shanhuyun",
     "酷酷云": "kukuyun",
     "CyberGuard": "cyberguard",
+    "极速Cloud": "jisucloud",
+    "秒秒云": "miaomiaoyun",
 }
 
 FEATURED_REVIEW = {
     "自由猫": "freecat.md",
     "SS-ID": "ss-id.md",
     "万达云": "wandacloud.md",
+    "仙路湾": "xianluwan.md",
+    "瑶瑶领先": "yaoyaolingxian.md",
 }
 
 PLANS_MARKER_START = "<!-- AUTO-GENERATED: 套餐表，由同步数据自动更新，请勿手动编辑 -->"
@@ -106,20 +110,25 @@ def sort_key(p):
     return (order.get(dur, 7), float(p.get("price", 0)))
 
 
+DEVICE_RE = re.compile(r"(?:支持|最多|允许|限制)\s*[^\s，,、]+?\s*(?:台|个)设备")
+
+
 def extract_device(plans):
-    """设备限制列：优先 device 字段，空则从 desc 提取"""
+    """设备限制列：优先 device 字段，空则从 desc 提取。
+    各家录法不统一（支持X台设备/最多X个设备/允许X台设备/最多支持5台设备），
+    用正则提取首个有效片段，避免脏数据（如"最多 6 个设备最多 1 个设备…"）整串上表。"""
     out = []
     for p in plans:
         dev = (p.get("device") or "").strip()
         desc = (p.get("desc") or "")
         if not dev or dev in ("-", "无限制"):
-            m = re.search(r"支持\s*[^\s，,]+?\s*台设备", desc)
+            m = DEVICE_RE.search(desc)
             dev = m.group(0) if m else "不限"
-        if "台设备" in dev:
-            m = re.search(r"支持\s*[^\s，,]+?\s*台设备", dev)
+        if "台设备" in dev or "个设备" in dev:
+            m = DEVICE_RE.search(dev)
             if m:
                 dev = m.group(0)
-        if "台设备" not in dev and "客户端" not in dev and dev not in ("不限", "-"):
+        if "台设备" not in dev and "个设备" not in dev and "客户端" not in dev and dev not in ("不限", "-"):
             dev = dev[:30] + "…" if len(dev) > 30 else dev
         out.append(dev)
     return out

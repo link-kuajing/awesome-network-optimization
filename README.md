@@ -3,9 +3,9 @@
 > 精选主流网络加速服务（机场）与云服务器（VPS）横向评测，帮助您找到最适合自己需求的高性价比方案。**内容每月更新。**
 
 [![GitHub stars](https://img.shields.io/github/stars/kuajingnew/awesome-network-optimization)](https://github.com/kuajingnew/awesome-network-optimization/stargazers)
-[![Last Updated](https://img.shields.io/badge/更新日期-2026--07--29-brightgreen)]()
-[![Airports](https://img.shields.io/badge/收录机场-18家-blue)]()
-[![VPS](https://img.shields.io/badge/收录VPS-8家-orange)]()
+[![Last Updated](https://img.shields.io/badge/更新日期-2026--08--11-brightgreen)]()
+[![Airports](https://img.shields.io/badge/收录机场-20家-blue)]()
+[![VPS](https://img.shields.io/badge/收录VPS-9家-orange)]()
 [![Guides](https://img.shields.io/badge/深度教程-7篇-purple)]()
 
 ---
@@ -37,6 +37,8 @@
 > 💡 **想自建？** 看看 [VPS自建代理节点](guides/vps-xray-setup.md) 或 [买了VPS能做什么](guides/vps-use-cases.md)。
 
 > 💡 **新用户建议**：预算有限先试自由猫 ¥6/月入门；追求稳定看万达云 IEPL 专线；需要大流量果断 SS-ID。
+>
+> 🆕 **新晋主推**：[仙路湾](airports/featured/xianluwan.md)（跨境电商专精，¥9.9 起）· [瑶瑶领先](airports/featured/yaoyaolingxian.md)（全球48节点/40+地区，¥9.9 享 384GB）
 
 ---
 
@@ -170,7 +172,7 @@
 |------|------|---------|------|---------|
 | ⭐ SS-ID | 1000Mbps | ¥20 ~ ¥85 | 追求线路质量 / 新疆地区用户 / 流媒体重度用户 / 中等流量需求 | [进入官网 →](airports/entry/ss-id.md) |
 | ⭐ 万达云 | 最大峰值1000Mbps | ¥16 ~ ¥350 | 追求IEPL专线但预算有限 / 家庭共享 / TikTok创作者 / 大流量用户 | [进入官网 →](airports/entry/wandacloud.md) |
-| ⭐ 仙路湾 | 120Mbps | ¥0 ~ ¥200 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/xianluwan.md) |
+| ⭐ 仙路湾 | 120Mbps | ¥0 ~ ¥200 | 跨境电商/外贸运营 / 海外社媒多账号管理 / 低价会员起步 | [进入官网 →](airports/entry/xianluwan.md) |
 | ⭐ 自由猫 | 1000Mbps | ¥6 ~ ¥338 | 预算敏感 / 流媒体爱好者 / AI工具用户 / 备用方案 | [进入官网 →](airports/entry/freecat.md) |
 | BoostNet | 1000Mbps | ¥200 ~ ¥388 | 企业/团队使用（30台套餐）/ 年付锁定低价 | [进入官网 →](airports/entry/boostnet.md) |
 | CyberGuard | 1000Mbps | ¥32 ~ ¥550 | AI 工具解锁（ChatGPT/Claude）/ 家庭共享不限设备 / 囤流量 | [进入官网 →](airports/entry/cyberguard.md) |
@@ -181,8 +183,10 @@
 | 大象网络 | 120Mbps | ¥12 ~ ¥55 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/daxiang.md) |
 | 山水云 | 1000Mbps | ¥14.99 ~ ¥222 | GPT，Tiktok等全流媒体 | [进入官网 →](airports/entry/shanshuiyun.md) |
 | 悠兔 | 1000Mbps | ¥199 ~ ¥366 | 海外用户回国 / 含住宅IP | [进入官网 →](airports/entry/youtu.md) |
+| 极速Cloud | 1000Mbps | ¥15 ~ ¥1628 | 大流量月付（1000G 起）/ 三网优化精品线路 / 冷门国家+原生IP解锁 | [进入官网 →](airports/entry/jisucloud.md) |
 | 极速云 | 1000Mbps | ¥15.99 ~ ¥368 | GPT Nf Tk等流媒体全解锁 | [进入官网 →](airports/entry/jisuyun.md) |
 | 瑶瑶领先 | 600 Mbps | ¥9.9 ~ ¥19.8 | 预算 ¥10/月以内 / 刷视频为主 | [进入官网 →](airports/entry/yaoyaolingxian.md) |
+| 秒秒云 | 1000Mbps | ¥14 ~ ¥320 | 月付 ¥14 起 / 大流量（128G~512G）/ 冷门国家解锁 | [进入官网 →](airports/entry/miaomiaoyun.md) |
 | 红杏云 | 1000 Mbps | ¥20 ~ ¥688 | 家庭共享不限设备 / 囤流量（不限时套餐） | [进入官网 →](airports/entry/hongxingyun.md) |
 | 酷酷云 | 1000Mbps | ¥20 ~ ¥160 | AI 工具解锁 / 游戏低延迟（BGP三网）/ 家庭共享不限设备 | [进入官网 →](airports/entry/kukuyun.md) |
 | 闪狐云 | 1000Mbps速率，晚高峰不限速 | ¥20 ~ ¥125 | 游戏/低延迟需求（BGP+IPLC）/ 海外用户回国 | [进入官网 →](airports/entry/shanhuyun.md) |
@@ -199,6 +203,8 @@
 | [自由猫](airports/featured/freecat.md) | ¥6 ~ ¥338 | 110+ | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/10) |
 | [SS-ID](airports/featured/ss-id.md) | ¥20 ~ ¥85 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/19) |
 | [万达云](airports/featured/wandacloud.md) | ¥16 ~ ¥350 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/11) |
+| [仙路湾](airports/featured/xianluwan.md) | ¥9.9 ~ ¥200 | 未公开 | 120Mbps | 标注全解锁（未实测） | [👉 注册](https://tochick.xyz/34) |
+| [瑶瑶领先](airports/featured/yaoyaolingxian.md) | ¥9.9 ~ ¥19.8 | 48节点/40+地区 | 600Mbps | 标注全解锁（未实测） | [👉 注册](https://tochick.xyz/18) |
 
 ### 📰 其他机场合集
 
@@ -213,7 +219,12 @@
 | [一枝红杏](airports/others.md#一枝红杏) | ¥99/年 | 全球多线路，年付低至¥99 |
 | [VikingLinks](airports/others.md#vikinglinks) | ¥72/月 | IEPL专线接入，大流量套餐 |
 | [BoostNet](airports/others.md#boostnet) | ¥200/年 | 10+国家40+节点，支持多设备 |
-| [瑶瑶领先](airports/others.md#瑶瑶领先) | ¥9.9/月 | 384GB大流量，入门首选 |
+| [山水云](airports/others.md#山水云) | ¥14.99/月 | 冷门国家解锁，GPT/TikTok 全流媒体 |
+| [极速云](airports/others.md#极速云) | ¥15.99/月 | 1200G 大流量月付，年付低至 ¥118 |
+| [Now加速](airports/others.md#now加速) | ¥10/月 | 多地区含家宽节点 |
+| [大象网络](airports/others.md#大象网络) | ¥12/月 | 硅谷优选路线，晚高峰不卡 |
+| [极速Cloud](airports/others.md#极速cloud) | ¥15/月 | 三网优化精品线路，原生IP解锁 |
+| [秒秒云](airports/others.md#秒秒云) | ¥14/月 | 三网优化高端线路，冷门国家解锁 |
 
 > 📊 详细参数对比 → [机场完整对比表](airports/README.md)
 
@@ -231,6 +242,7 @@
 | **RackNerd** | 国外VPS | 低价VPS，年付$10+起，性价比极高 | [👉 查看](https://tochick.xyz/29) |
 | **HostDare** | 国外VPS | 中国优化线路，电信CN2 GT | [👉 查看](https://tochick.xyz/28) |
 | **DMIT** | 国外VPS | 高端线路，中国大陆优化，高防 | [👉 查看](https://tochick.xyz/27) |
+| **Jtti** | 国外VPS | 官网活动推广中 | [👉 查看](https://tochick.xyz/39) |
 
 > 📊 详细对比 → [VPS 选购指南](vps/README.md)
 
@@ -254,6 +266,8 @@
 
 | 日期 | 更新内容 |
 |:----:|----------|
+| 2026-08-11 | 🔄 一致性修复 + 内容保鲜：<br>🛩️ 补 极速Cloud / 秒秒云 官网入口页（收录机场 18→20）<br>⭐ 新增 2 篇深度评测：仙路湾（跨境电商专精）、瑶瑶领先（全球48节点/40+地区，¥9.9 享 384GB），主推 3→5 家<br>📝 刷新 自由猫/SS-ID/万达云 评测（价格与 08-11 同步数据核对一致，更新时间标注）<br>🔧 入口页设备限制正则增强（清洗"最多X个设备"脏数据）<br>📚 others.md 补 山水云/极速云/Now加速/大象网络/极速Cloud/秒秒云 条目，对比表同步 20 家<br>🔢 徽章数据修正：收录机场 20 家、VPS 9 家（补 Jtti），更新日志补记 8 月上旬 |
+| 2026-08-01 | 📡 瑶瑶领先补节点数据：全球 48 节点/40+ 地区（含南极洲/格陵兰/冰岛等罕见节点，人工录入自官网节点状态页）<br>🛡️ 新增原创声明：README 详细版 + 18 个入口页轻量版（禁止整段复制/镜像搬运）<br>📊 每日 2:00 数据自动同步持续运行 |
 | 2026-07-31 | 🛩️ 新增18家机场官网入口页（airports/entry/），单仓矩阵：每家独立"官网注册入口+使用指南"页面，含套餐分组/¥G单价/性价比分析，套餐价格每日自动同步<br>⭐ 主推3家入口页内置流媒体实测、优缺点、适合人群（抽取自深度评测）<br>📥 新增 5 家机场数据：Now加速/大象网络/极速云/山水云/仙路湾（收录机场 13→18） |
 | 2026-07-29 | 📖 全面重写场景导购（12大场景覆盖币圈/AI/跨境/游戏/学术等）<br>📚 新增 Hermes Agent+飞书集成、VPS自建代理、VPS玩法大全 3篇深度教程<br>🔗 评测页增加场景导购交叉引用<br>📘 客户端配置指南扩充（Clash Verge/Stash/Shadowrocket/sing-box）<br>🐳 VPS初始化教程扩充Docker实操<br>🔧 修复对比表数据标注 |
 | 2026-07-28 | 🎉 仓库初始化，收录13家机场 + 8家VPS |
