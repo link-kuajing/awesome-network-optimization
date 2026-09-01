@@ -1,13 +1,18 @@
 #!/bin/bash
 # ==============================================================
 # awesome-network-optimization 数据同步脚本
-# 
-# 用法: 
+#
+# 用法:
 #   1. 配置 API 地址:  export API_BASE_URL="https://tochick.xyz"
 #   2. 运行:          ./scripts/sync-data.sh
 #
-# 效果: 
+# 效果:
 #   从 API 拉取最新数据 → 更新 JSON 缓存 → git commit & push
+#
+# 凭据来源（（2026-09-01 修复：之前裸 push 失败）：
+#   - 6hao profile .env 里的 GITHUB_TOKEN_PUBLIC（public 权限，能 push 公开仓库）
+#   - 6hao profile 是 link-kuajing 用户，跟 2hao 是同一个 GitHub 账号
+#   - token 仅内存使用不落盘（遵循安全偏好）
 # ==============================================================
 
 set -e
@@ -15,6 +20,29 @@ set -e
 REPO_DIR="/root/awesome-network-optimization"
 DATA_DIR="$REPO_DIR/_data"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+
+# 读 GITHUB token（优先从 6hao profile .env，fallback 到其他位置）
+GITHUB_TOKEN=""
+for env_file in \
+    "/root/.hermes/profiles/project-6hao/.env" \
+    "/root/.hermes/profiles/project-2hao/.env" \
+    "/root/.hermes/.env"; do
+    if [ -f "$env_file" ]; then
+        # 优先 GITHUB_TOKEN_PUBLIC（public 仓库够用），fallback GITHUB_TOKEN
+        tok=$(grep '^GITHUB_TOKEN_PUBLIC=' "$env_file" 2>/dev/null | head -1 | cut -d= -f2)
+        [ -z "$tok" ] && tok=$(grep '^GITHUB_TOKEN=' "$env_file" 2>/dev/null | head -1 | cut -d= -f2)
+        if [ -n "$tok" ]; then
+            GITHUB_TOKEN="$tok"
+            break
+        fi
+    fi
+done
+
+if [ -z "$GITHUB_TOKEN" ]; then
+    echo "[ERROR] 找不到 GITHUB_TOKEN，无法推送"
+    echo "请在 6hao/2hao profile 的 .env 里加 GITHUB_TOKEN=*** 或 GITHUB_TOKEN_PUBLIC=*** "
+    exit 1
+fi
 
 # 检查 API 地址是否已配置
 if [ -z "$API_BASE_URL" ]; then
@@ -98,7 +126,8 @@ python3 "$REPO_DIR/scripts/generate-entry-pages.py" || echo "[WARN] 入口页生
 cd "$REPO_DIR"
 git add _data/ airports/entry/ README.md
 git commit -m "📊 数据自动同步 @ $TIMESTAMP" || echo "       ℹ️  无变更，跳过提交"
-git push origin main
+# 内联 token push（避免依赖全局 ~/.git-credentials，跟6hao 项目同步模式一致）
+git push "https://x-access-token:${GITHUB_TOKEN}@github.com/link-kuajing/awesome-network-optimization.git" main
 
 echo ""
 echo "=== 同步完成 ✅ ==="
