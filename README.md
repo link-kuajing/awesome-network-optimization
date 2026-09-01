@@ -186,7 +186,7 @@
 | 一枝红杏 | 1000 Mbps | ¥99 ~ ¥499 | 年付锁定低价 / 长期用户 | [进入官网 →](airports/entry/yizhihongxing.md) |
 | 大象网络 | 120Mbps | ¥12 ~ ¥55 | 全球流媒体解锁，热门平台随心看 | [进入官网 →](airports/entry/daxiang.md) |
 | 山水云 | 1000Mbps | ¥14.99 ~ ¥222 | GPT，Tiktok等全流媒体 | [进入官网 →](airports/entry/shanshuiyun.md) |
-| 悠兔 | 1000Mbps | ¥199 ~ ¥366 | 海外用户回国 / 含住宅IP | [进入官网 →](airports/entry/youtu.md) |
+| 悠兔 | 1000Mbps | ¥39 ~ ¥366 | 海外用户回国 / 含住宅IP | [进入官网 →](airports/entry/youtu.md) |
 | 极速Cloud | 1000Mbps | ¥15 ~ ¥1628 | 大流量月付（1000G 起）/ 三网优化精品线路 / 冷门国家+原生IP解锁 | [进入官网 →](airports/entry/jisucloud.md) |
 | 极速云 | 1000Mbps | ¥15.99 ~ ¥368 | GPT Nf Tk等流媒体全解锁 | [进入官网 →](airports/entry/jisuyun.md) |
 | 瑶瑶领先 | 600 Mbps | ¥9.9 ~ ¥19.8 | 预算 ¥10/月以内 / 刷视频为主 | [进入官网 →](airports/entry/yaoyaolingxian.md) |
