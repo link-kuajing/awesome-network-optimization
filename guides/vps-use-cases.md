@@ -319,4 +319,4 @@ docker run -d \
 
 > 💡 **还没VPS？** 看看 [VPS选购指南](../vps/README.md) 和 [VPS购买与初始化教程](vps-quickstart.md)
 >
-> 🚀 **快速入口：** [RackNerd ¥10/年](https://tochick.xyz/29) · [BandwagonHost CN2 GIA](https://tochick.xyz/30) · [HostDare CN2 GT](https://tochick.xyz/28) · [DMIT 高端线路](https://tochick.xyz/27)
+> 🚀 **快速入口：** [RackNerd ¥10/年](https://haiwanlink.com/29) · [BandwagonHost CN2 GIA](https://haiwanlink.com/30) · [HostDare CN2 GT](https://haiwanlink.com/28) · [DMIT 高端线路](https://haiwanlink.com/27)

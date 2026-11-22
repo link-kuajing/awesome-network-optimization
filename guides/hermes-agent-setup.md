@@ -41,7 +41,7 @@ Hermes Agent 是由 Nous Research 开发的开源 AI 助手框架。它可以：
 
 | 条件 | 说明 |
 |:----|:-----|
-| 🖥️ **VPS 一台** | 建议 1GB 以上内存，推荐 [BandwagonHost CN2 GIA](https://tochick.xyz/30) 或 [RackNerd ¥10/年](https://tochick.xyz/29) |
+| 🖥️ **VPS 一台** | 建议 1GB 以上内存，推荐 [BandwagonHost CN2 GIA](https://haiwanlink.com/30) 或 [RackNerd ¥10/年](https://haiwanlink.com/29) |
 | 🌐 **域名（可选）** | 如果想让飞书事件订阅走公网 HTTPS 回调，需要一个域名。也可以用内网穿透替代 |
 | 🔑 **AI 模型 API Key** | DeepSeek / OpenAI / Anthropic 等任选一个 |
 | 📱 **飞书企业账号** | 免费版即可，不需要付费版 |
@@ -436,6 +436,6 @@ journalctl -u hermes-agent -f
 - [Hermes Agent GitHub](https://github.com/nousresearch/hermes-agent)
 - [还没 VPS？选购指南 →](../vps/README.md)
 
-> **💡 需要更便宜的 VPS 来练手？** [RackNerd ¥10/年](https://tochick.xyz/29) 租一台，随便折腾不心疼。
+> **💡 需要更便宜的 VPS 来练手？** [RackNerd ¥10/年](https://haiwanlink.com/29) 租一台，随便折腾不心疼。
 >
-> **💡 需要稳定的 VPS 跑生产服务？** [BandwagonHost CN2 GIA](https://tochick.xyz/30) 线路稳，延迟低。
+> **💡 需要稳定的 VPS 跑生产服务？** [BandwagonHost CN2 GIA](https://haiwanlink.com/30) 线路稳，延迟低。

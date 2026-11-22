@@ -5,11 +5,11 @@
 
 | 评测 | 起售价 | 定位 | 快速入口 |
 |------|:------:|------|:--------:|
-| [自由猫评测](freecat.md) | ¥6/月 | 入门首选·性价比之王·全流媒体解锁 | [👉 注册](https://tochick.xyz/10) |
-| [SS-ID评测](ss-id.md) | ¥20/月 | IEPL专线·新疆优化·全流媒体解锁保证 | [👉 注册](https://tochick.xyz/19) |
-| [万达云评测](wandacloud.md) | ¥16/月 | IEPL专线性价比之王·家庭共享·TikTok优化 | [👉 注册](https://tochick.xyz/11) |
-| [仙路湾评测](xianluwan.md) | ¥9.9/月 | 跨境电商·外贸运营·海外社媒多账号 | [👉 注册](https://tochick.xyz/34) |
-| [瑶瑶领先评测](yaoyaolingxian.md) | ¥9.9/月 | 全球48节点/40+地区·¥9.9享384GB | [👉 注册](https://tochick.xyz/18) |
+| [自由猫评测](freecat.md) | ¥6/月 | 入门首选·性价比之王·全流媒体解锁 | [👉 注册](https://haiwanlink.com/10) |
+| [SS-ID评测](ss-id.md) | ¥20/月 | IEPL专线·新疆优化·全流媒体解锁保证 | [👉 注册](https://haiwanlink.com/19) |
+| [万达云评测](wandacloud.md) | ¥16/月 | IEPL专线性价比之王·家庭共享·TikTok优化 | [👉 注册](https://haiwanlink.com/11) |
+| [仙路湾评测](xianluwan.md) | ¥9.9/月 | 跨境电商·外贸运营·海外社媒多账号 | [👉 注册](https://haiwanlink.com/34) |
+| [瑶瑶领先评测](yaoyaolingxian.md) | ¥9.9/月 | 全球48节点/40+地区·¥9.9享384GB | [👉 注册](https://haiwanlink.com/18) |
 
 ---
 

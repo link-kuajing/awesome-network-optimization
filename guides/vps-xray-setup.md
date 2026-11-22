@@ -392,6 +392,6 @@ vnstat -m
 - [VPS 选购指南 →](../vps/README.md)
 - [买了VPS能做什么 →](vps-use-cases.md)
 
-> 💡 **推荐 VPS：** 自建代理推荐 [BandwagonHost CN2 GIA](https://tochick.xyz/30)，CN2 GIA 线路对中国大陆最友好。
+> 💡 **推荐 VPS：** 自建代理推荐 [BandwagonHost CN2 GIA](https://haiwanlink.com/30)，CN2 GIA 线路对中国大陆最友好。
 >
 > 💡 **想省心？** 不想折腾自建的话，直接买 [机场服务 →](../README.md#-热门推荐)，¥6 起就能用。

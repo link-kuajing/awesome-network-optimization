@@ -10,19 +10,19 @@
 
 | 服务商 | 特点 | 适合场景 | 链接 |
 |--------|------|---------|:----:|
-| **腾讯云-国内** | 新用户超值代金券，轻量应用服务器性价比高 | 国内建站、小程序后端 | [👉 查看](https://tochick.xyz/23) |
-| **阿里云** | 国内最大云厂商，产品线最全 | 企业级应用、大数据、AI训练 | [👉 查看](https://tochick.xyz/26) |
-| **百度云** | 百度生态集成，AI能力突出 | AI应用、内容分发 | [👉 查看](https://tochick.xyz/25) |
+| **腾讯云-国内** | 新用户超值代金券，轻量应用服务器性价比高 | 国内建站、小程序后端 | [👉 查看](https://haiwanlink.com/23) |
+| **阿里云** | 国内最大云厂商，产品线最全 | 企业级应用、大数据、AI训练 | [👉 查看](https://haiwanlink.com/26) |
+| **百度云** | 百度生态集成，AI能力突出 | AI应用、内容分发 | [👉 查看](https://haiwanlink.com/25) |
 
 ### 🌍 国外云服务商
 
 | 服务商 | 特点 | 适合场景 | 链接 |
 |--------|------|---------|:----:|
-| **腾讯云-海外** | 国际版，免备案，全球节点 | 海外业务、免备案建站 | [👉 查看](https://tochick.xyz/24) |
-| **BandwagonHost** | CN2 GIA 线路，中国访问优化 | 自建代理、中国用户网站 | [👉 查看](https://tochick.xyz/30) |
-| **RackNerd** | 低价VPS，年付$10+起 | 个人博客、轻量应用、学习实验 | [👉 查看](https://tochick.xyz/29) |
-| **HostDare** | 中国优化线路，电信CN2 GT | 中国用户优化、WordPress建站 | [👉 查看](https://tochick.xyz/28) |
-| **DMIT** | 高端线路，中国大陆优化，高防 | 高要求业务、游戏服务器、企业应用 | [👉 查看](https://tochick.xyz/27) |
+| **腾讯云-海外** | 国际版，免备案，全球节点 | 海外业务、免备案建站 | [👉 查看](https://haiwanlink.com/24) |
+| **BandwagonHost** | CN2 GIA 线路，中国访问优化 | 自建代理、中国用户网站 | [👉 查看](https://haiwanlink.com/30) |
+| **RackNerd** | 低价VPS，年付$10+起 | 个人博客、轻量应用、学习实验 | [👉 查看](https://haiwanlink.com/29) |
+| **HostDare** | 中国优化线路，电信CN2 GT | 中国用户优化、WordPress建站 | [👉 查看](https://haiwanlink.com/28) |
+| **DMIT** | 高端线路，中国大陆优化，高防 | 高要求业务、游戏服务器、企业应用 | [👉 查看](https://haiwanlink.com/27) |
 
 ---
 
@@ -119,7 +119,7 @@
 
 > 💡 **省钱小技巧**：大多数云厂商都有新用户优惠，建议用不同账号购买首单折扣。
 >
-> 🚀 **快速入口**：[腾讯云国内](https://tochick.xyz/23) · [阿里云](https://tochick.xyz/26) · [BandwagonHost](https://tochick.xyz/30) · [RackNerd](https://tochick.xyz/29) · [HostDare](https://tochick.xyz/28) · [DMIT](https://tochick.xyz/27)
+> 🚀 **快速入口**：[腾讯云国内](https://haiwanlink.com/23) · [阿里云](https://haiwanlink.com/26) · [BandwagonHost](https://haiwanlink.com/30) · [RackNerd](https://haiwanlink.com/29) · [HostDare](https://haiwanlink.com/28) · [DMIT](https://haiwanlink.com/27)
 
 ---
 

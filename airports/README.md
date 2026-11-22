@@ -125,26 +125,26 @@
 
 | 服务商 | 注册链接 |
 |--------|:--------:|
-| **自由猫** 🔥 | [立即注册](https://tochick.xyz/10) |
-| **SS-ID** 🔥 | [立即注册](https://tochick.xyz/19) |
-| **万达云** 🔥 | [立即注册](https://tochick.xyz/11) |
-| **仙路湾** 🔥 | [立即注册](https://tochick.xyz/34) |
-| **瑶瑶领先** 🔥 | [立即注册](https://tochick.xyz/18) |
-| SKYLUMO | [立即注册](https://tochick.xyz/14) |
-| CyberGuard | [立即注册](https://tochick.xyz/12) |
-| 闪狐云 | [立即注册](https://tochick.xyz/15) |
-| 红杏云 | [立即注册](https://tochick.xyz/20) |
-| 悠兔 | [立即注册](https://tochick.xyz/13) |
-| 酷酷云 | [立即注册](https://tochick.xyz/17) |
-| 一枝红杏 | [立即注册](https://tochick.xyz/16) |
-| VikingLinks | [立即注册](https://tochick.xyz/22) |
-| BoostNet | [立即注册](https://tochick.xyz/21) |
-| 山水云 | [立即注册](https://tochick.xyz/36) |
-| 极速云 | [立即注册](https://tochick.xyz/35) |
-| Now加速 | [立即注册](https://tochick.xyz/31) |
-| 大象网络 | [立即注册](https://tochick.xyz/33) |
-| 极速Cloud | [立即注册](https://tochick.xyz/38) |
-| 秒秒云 | [立即注册](https://tochick.xyz/37) |
+| **自由猫** 🔥 | [立即注册](https://haiwanlink.com/10) |
+| **SS-ID** 🔥 | [立即注册](https://haiwanlink.com/19) |
+| **万达云** 🔥 | [立即注册](https://haiwanlink.com/11) |
+| **仙路湾** 🔥 | [立即注册](https://haiwanlink.com/34) |
+| **瑶瑶领先** 🔥 | [立即注册](https://haiwanlink.com/18) |
+| SKYLUMO | [立即注册](https://haiwanlink.com/14) |
+| CyberGuard | [立即注册](https://haiwanlink.com/12) |
+| 闪狐云 | [立即注册](https://haiwanlink.com/15) |
+| 红杏云 | [立即注册](https://haiwanlink.com/20) |
+| 悠兔 | [立即注册](https://haiwanlink.com/13) |
+| 酷酷云 | [立即注册](https://haiwanlink.com/17) |
+| 一枝红杏 | [立即注册](https://haiwanlink.com/16) |
+| VikingLinks | [立即注册](https://haiwanlink.com/22) |
+| BoostNet | [立即注册](https://haiwanlink.com/21) |
+| 山水云 | [立即注册](https://haiwanlink.com/36) |
+| 极速云 | [立即注册](https://haiwanlink.com/35) |
+| Now加速 | [立即注册](https://haiwanlink.com/31) |
+| 大象网络 | [立即注册](https://haiwanlink.com/33) |
+| 极速Cloud | [立即注册](https://haiwanlink.com/38) |
+| 秒秒云 | [立即注册](https://haiwanlink.com/37) |
 
 ---
 

@@ -10,11 +10,11 @@
 
 | 需求 | 推荐 | 入门价 | 链接 |
 |:----|:----|:-----:|:----:|
-| 🇨🇳 **国内建站**（需备案） | 腾讯云 / 阿里云 | ￥几十/年 | [查看](https://tochick.xyz/23) |
-| 🌐 **免备案建站** | RackNerd / HostDare | $10+/年 | [查看](https://tochick.xyz/29) |
-| 🔧 **自建代理节点** | BandwagonHost CN2 GIA | $50+/年 | [查看](https://tochick.xyz/30) |
-| 🚀 **高端企业** | DMIT | $10+/月 | [查看](https://tochick.xyz/27) |
-| 🧪 **学习实验** | RackNerd | **$10/年** | [查看](https://tochick.xyz/29) |
+| 🇨🇳 **国内建站**（需备案） | 腾讯云 / 阿里云 | ￥几十/年 | [查看](https://haiwanlink.com/23) |
+| 🌐 **免备案建站** | RackNerd / HostDare | $10+/年 | [查看](https://haiwanlink.com/29) |
+| 🔧 **自建代理节点** | BandwagonHost CN2 GIA | $50+/年 | [查看](https://haiwanlink.com/30) |
+| 🚀 **高端企业** | DMIT | $10+/月 | [查看](https://haiwanlink.com/27) |
+| 🧪 **学习实验** | RackNerd | **$10/年** | [查看](https://haiwanlink.com/29) |
 
 > 💡 新手练手推荐 **RackNerd**，年付 $10 起，配置简单，丢了不心疼。
 
@@ -24,7 +24,7 @@
 
 以 RackNerd 为例，购买流程：
 
-1. 从 [推广链接](https://tochick.xyz/29) 进入官网
+1. 从 [推广链接](https://haiwanlink.com/29) 进入官网
 2. 选择一个套餐（建议 `1核 / 1GB / 20GB SSD / 1TB 流量` 够用）
 3. 加入购物车
 4. **输入优惠码**（通常在促销页面可找到，比如 `NEWYEAR30` 可省 30%）
@@ -281,4 +281,4 @@ sysctl -p
 - [VPS 服务商对比](../vps/README.md) — 看完选哪家
 - [机场推荐](../README.md#-热门推荐) — 如果 VPS 只是用来挂代理，不如直接买机场省心
 
-> 🔗 **[查看所有 VPS 服务商 →](https://tochick.xyz/23)**
+> 🔗 **[查看所有 VPS 服务商 →](https://haiwanlink.com/23)**

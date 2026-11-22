@@ -3,7 +3,7 @@
 # awesome-network-optimization 数据同步脚本
 #
 # 用法:
-#   1. 配置 API 地址:  export API_BASE_URL="https://tochick.xyz"
+#   1. 配置 API 地址:  export API_BASE_URL="https://haiwanlink.com"
 #   2. 运行:          ./scripts/sync-data.sh
 #
 # 效果:

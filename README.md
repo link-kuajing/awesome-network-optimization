@@ -204,11 +204,11 @@
 
 | 服务商 | 价格区间 | 节点 | 带宽 | 流媒体 | 快速入口 |
 |--------|:--------:|:----:|:----:|:------:|:--------:|
-| [自由猫](airports/featured/freecat.md) | ¥6 ~ ¥338 | 110+ | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/10) |
-| [SS-ID](airports/featured/ss-id.md) | ¥20 ~ ¥85 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/19) |
-| [万达云](airports/featured/wandacloud.md) | ¥16 ~ ¥350 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://tochick.xyz/11) |
-| [仙路湾](airports/featured/xianluwan.md) | ¥9.9 ~ ¥200 | 未公开 | 120Mbps | 标注全解锁（未实测） | [👉 注册](https://tochick.xyz/34) |
-| [瑶瑶领先](airports/featured/yaoyaolingxian.md) | ¥9.9 ~ ¥19.8 | 48节点/40+地区 | 600Mbps | 标注全解锁（未实测） | [👉 注册](https://tochick.xyz/18) |
+| [自由猫](airports/featured/freecat.md) | ¥6 ~ ¥338 | 110+ | 1000Mbps | ✅ 全解锁 | [👉 注册](https://haiwanlink.com/10) |
+| [SS-ID](airports/featured/ss-id.md) | ¥20 ~ ¥85 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://haiwanlink.com/19) |
+| [万达云](airports/featured/wandacloud.md) | ¥16 ~ ¥350 | IEPL专线 | 1000Mbps | ✅ 全解锁 | [👉 注册](https://haiwanlink.com/11) |
+| [仙路湾](airports/featured/xianluwan.md) | ¥9.9 ~ ¥200 | 未公开 | 120Mbps | 标注全解锁（未实测） | [👉 注册](https://haiwanlink.com/34) |
+| [瑶瑶领先](airports/featured/yaoyaolingxian.md) | ¥9.9 ~ ¥19.8 | 48节点/40+地区 | 600Mbps | 标注全解锁（未实测） | [👉 注册](https://haiwanlink.com/18) |
 
 ### 📰 其他机场合集
 
@@ -238,15 +238,15 @@
 
 | 服务商 | 类型 | 特点 | 快速入口 |
 |--------|:----:|------|:--------:|
-| **腾讯云-国内** | 国内云 | 新用户高额代金券，轻量应用服务器性价比高 | [👉 查看](https://tochick.xyz/23) |
-| **腾讯云-海外** | 海外云 | Tencent Cloud International，免备案 | [👉 查看](https://tochick.xyz/24) |
-| **阿里云** | 国内云 | 国内最大云厂商，产品线最全 | [👉 查看](https://tochick.xyz/26) |
-| **百度云** | 国内云 | AI 云优势，适合轻量应用 | [👉 查看](https://tochick.xyz/25) |
-| **BandwagonHost** | 国外VPS | CN2 GIA 线路，中国用户友好 | [👉 查看](https://tochick.xyz/30) |
-| **RackNerd** | 国外VPS | 低价VPS，年付$10+起，性价比极高 | [👉 查看](https://tochick.xyz/29) |
-| **HostDare** | 国外VPS | 中国优化线路，电信CN2 GT | [👉 查看](https://tochick.xyz/28) |
-| **DMIT** | 国外VPS | 高端线路，中国大陆优化，高防 | [👉 查看](https://tochick.xyz/27) |
-| **Jtti** | 国外VPS | 官网活动推广中 | [👉 查看](https://tochick.xyz/39) |
+| **腾讯云-国内** | 国内云 | 新用户高额代金券，轻量应用服务器性价比高 | [👉 查看](https://haiwanlink.com/23) |
+| **腾讯云-海外** | 海外云 | Tencent Cloud International，免备案 | [👉 查看](https://haiwanlink.com/24) |
+| **阿里云** | 国内云 | 国内最大云厂商，产品线最全 | [👉 查看](https://haiwanlink.com/26) |
+| **百度云** | 国内云 | AI 云优势，适合轻量应用 | [👉 查看](https://haiwanlink.com/25) |
+| **BandwagonHost** | 国外VPS | CN2 GIA 线路，中国用户友好 | [👉 查看](https://haiwanlink.com/30) |
+| **RackNerd** | 国外VPS | 低价VPS，年付$10+起，性价比极高 | [👉 查看](https://haiwanlink.com/29) |
+| **HostDare** | 国外VPS | 中国优化线路，电信CN2 GT | [👉 查看](https://haiwanlink.com/28) |
+| **DMIT** | 国外VPS | 高端线路，中国大陆优化，高防 | [👉 查看](https://haiwanlink.com/27) |
+| **Jtti** | 国外VPS | 官网活动推广中 | [👉 查看](https://haiwanlink.com/39) |
 
 > 📊 详细对比 → [VPS 选购指南](vps/README.md)
 
